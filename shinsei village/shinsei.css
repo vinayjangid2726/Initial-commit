@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#bgimg {
+    height: 70%;
+    width: 100%;
+    z-index: -2;
+}
+
+#bgimg img {
+    height: 100%;
+    width: 100%;
+    clip-path: ellipse(80% 100% at 50% 0%);
+}
+
+
+nav {
+    height: 10%;
+    width: 65%;
+    top: .01%;
+    left: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#logo {
+    height: 125px;
+    width: 150px;
+    position: relative;
+    top: -10%;
+}
+
+#about {
+    position: relative;
+    font-size: large;
+    color: white;
+    display: flex;
+    top: -22%;
+    gap: 41px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+#social {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: -20%;
+}
+
+#social i {
+    height: 25px;
+    width: 25px;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#heroimg {
+    height: 50%;
+    width: 500px;
+    position: absolute;
+    top: 20.1%;
+    left: 34%;
+    z-index: 4;
+}
+
+#text {
+    height: 500px;
+    width: 650px;
+    position: absolute;
+    font-weight: 900;
+    top: 27%;
+    left: 29.5%;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+    text-align: center;
+}
+
+span {
+    font-size: 50px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 700;
+}
+
+#right{
+    text-align: left;
+}
+
+#left{
+    text-align: right;
+}
+
+#join {
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 45%;
+    left: 39.5%;
+    padding: 5px 5px;
+    border-radius:50%;
+    box-shadow: inset 5px 5px 50px;
+    z-index: 6;
+
+}
+
+#join img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 7;
+}
+
+#otherbg {
+    height: 80%;
+    width: 100%;
+    top: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+#vesion {
+    height: 50px;
+    width: 100px;
+    font-size: xx-large;
+    font-weight: 200;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    left: 46.5%;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#sep {
+    height: 40%;
+    width: 60%;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+
+}
+
+#sep img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#textcontant1 {
+    height: 100px;
+    width: 400px;
+    position: relative;
+    top: 14%;
+    left: 22%;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+
+#textcontant2 {
+    height: 100px;
+    width: 400px;
+    position: relative;
+    top: .5%;
+    left: 52%;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+/*
+#headline1 {
+    height: 80px;
+    width: 400px;
+    top: 25%;
+    left: 20%;
+    position: absolute;
+    color: white;
+    
+}
+
+span {
+    font-size: 100px;
+}
+
+#vison {
+    height: 50px;
+    width: 100px;
+    top: -28%;
+    left: 48%;
+    color: white;
+    position: relative;
+}
+
+#sep{
+    height: 35%;
+    width: 70%;
+    position: relative;
+    top: -45%;
+    left: 16%;
+}
+
+#sep img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+
+#textcontant1{
+    height: 100px;
+    width: 400px;
+    position: relative;
+    top: -60%;
+    left: 22%;
+    color: white;
+}
+p{
+    text-align: center;
+}
+
+
+#textcontant2{
+    height: 100px;
+    width: 400px;
+    position: relative;
+    top: -73.5%;
+    left: 56%;
+    color: white;
+}
+p{
+    text-align: center;
+}
+/*

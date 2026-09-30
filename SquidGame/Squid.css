@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    overflow: hidden;
+    background-image: url(./background1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#socialicons {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 25%;
+    left: 90%;
+    gap: 10px;
+
+}
+
+#socialicons img {
+    height: 90%;
+    width: 90%;
+    opacity: 0.5;
+
+}
+
+nav {
+    height: 10%;
+    width: 100%;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Squidgame {
+    height: 100%;
+    width: 15%;
+
+}
+
+#Squidgame img {
+    height: 100%;
+    width: 80%;
+    position: relative;
+}
+
+#navigation {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h5 {
+    color: white;
+}
+
+#menulogo {
+    height: 100%;
+    width: 5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    height: 65%;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+#about {
+    height: 100%;
+    width: 45%;
+
+    position: relative;
+
+}
+
+#about img {
+    height: 125%;
+    width: 125%;
+    position: relative;
+    top: -30%;
+    left: -25%;
+}
+
+h6 {
+    position: relative;
+    top: -72%;
+    left: 10%;
+    color: white;
+    font-size: medium;
+    opacity: 0.5;
+}
+
+#playnow {
+    height: 40px;
+    width: 125px;
+    top: -68%;
+    left: 10%;
+    position: relative;
+    border-radius: 10px;
+    background-color: orange;
+    background: linear-gradient(to right, #d12255, #c46817);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+#watchtrailer {
+    height: 40px;
+    width: 130px;
+    top: 65%;
+    left: 35%;
+    position: absolute;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+
+}
+
+.ri-play-circle-line {
+    margin-right: 5px;
+}
+
+.ri-play-line {
+    margin-right: 4px;
+}
+
+#img {
+    height: 100%;
+    width: 40%;
+    position: relative;
+}
+
+#img img {
+    height: 110%;
+    top: -10%;
+    width: 100%;
+    position: relative;
+}
+
+.scroll-indicator {
+    display: flex;
+    top: 20%;
+    left: 20%;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    /* Typically placed on the side of the screen */
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.scroll-text {
+    /* This rotates the text vertically */
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.scroll-line {
+    width: 1px;
+    height: 60px;
+    background-color: #ff3e6d;
+    /* Matches the red line in your image */
+}
+
+footer {
+    height: 25%;
+    width: 95%;
+    top: -5%;
+    left: 3.5%;
+    position: relative;
+    background: transparent;
+    box-shadow: inset 15px 10px 100px;
+    background: linear-gradient(to right, #454444, #d81c54);
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+footer img {
+    margin-left: 60px;
+    border-radius: 20px;
+}
+
+footer i {
+    position: relative;
+    top: 70%;
+    left: -6.8%;
+    height: 18px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40%;
+
+}

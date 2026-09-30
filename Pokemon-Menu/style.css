@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Montserrat Italic', sans-serif;
+    font-size: 16px;
+}
+
+main {
+    height: 100%;
+    width: 97%;
+    background: #fedfa1;
+    border-radius: 50px;   
+    display: flex;
+    margin: 10px 10px 15px 20px;
+    
+}
+
+section {
+    height: 100%;
+    width: 67%;
+    background: #ffc82f;
+    border-radius: 50px;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 700;
+}
+p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: justify;
+    max-width: 450px;
+    line-height: 1.6;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: justify;
+    max-width: 450px;
+    line-height: 1.6;
+}
+
+.middle{
+    height: 500px;
+    width: 483px;
+    border-radius: 50%;
+    margin-left: 100px;
+    position: absolute;
+    top: 34%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+} 
+
+.blackdot{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: 40%;
+    left: 90%;
+}
+
+.colordot1{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #ffc82f;
+    position: absolute;
+    top: 44%;
+    left: 90%;
+}
+.colordot2{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #ffc82f;
+    position: absolute;
+    top: 48%;
+    left: 90%;
+}
+.colordot3{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #ffc82f;
+    position: absolute;
+    top: 52%;
+    left: 90%;
+}
+.colordot4{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #ffc82f;
+    position: absolute;
+    top: 56%;
+    left: 90%;
+}
+
+.listmenu{
+    height: 3px;
+    width: 4px;
+    position: absolute;
+    top: 10%;
+    left: 87%;
+  
+}
+.center{
+   margin-left: 30px;
+
+
+}
+
+.middle img{
+    height: 650px;
+    width: 600px;
+}

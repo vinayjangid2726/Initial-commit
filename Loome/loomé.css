@@ -1,0 +1,414 @@
+:root {
+    --primary-font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --seondary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --primary-color: #5E644D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+header {
+    height: 100px;
+    width: 100vw;
+    padding: 10px 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .nav1 {
+    font-size: 55px;
+    margin-left: 10px;
+}
+
+header .nav2 {
+
+    min-height: 60px;
+    width: 50%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-content: center;
+    justify-content: center;
+
+    opacity: 0.8;
+
+}
+
+header .nav2 a {
+    display: block;
+
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+header .nav3 {
+    display: flex;
+    gap: 15px;
+    margin-right: 120px;
+}
+
+header .nav3 span i {
+    font-size: 23px;
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    header .nav2 {
+        display: none;
+    }
+}
+
+center {
+    height: 450px;
+    width: 100vw;
+
+    display: flex;
+    gap: 5px;
+}
+
+#leftdiv {
+    padding: 20px;
+    min-width: 200px;
+    height: 650px;
+    width: 35vw;
+    margin-left: 80px;
+    text-align: start;
+    border-radius: 30px;
+    box-shadow: 0px 0px 1000px rgb(248, 238, 214);
+    box-shadow: 0px 0px 100px rgb(255, 246, 226);
+
+}
+
+.leaf_logo img {
+    height: 50px;
+    width: 50px;
+}
+
+#leftdiv span {
+    display: flex;
+}
+
+span h5 {
+    color: var(--primary-color);
+
+    align-content: center;
+
+    margin-left: 5px;
+
+}
+
+#cotton {
+    height: 23vh;
+    width: 100%;
+}
+
+#leftdiv h1 {
+
+    font-weight: 400;
+    max-height: 30%;
+    font-size: clamp(2rem, 8vw, 7rem);
+    font-family: Cormorant Garamond;
+
+    line-height: 70px;
+    margin-top: 4px;
+}
+
+.classline {
+    width: 50%;
+    border-top: 1px solid #7B816B;
+}
+
+#leftdiv p {
+    width: 100%;
+    text-align: justify;
+    font-size: clamp(0.8rem, 3vw, 1.5rem);
+    font-family: var(--primary-font);
+    font-size: 13px;
+    opacity: 0.6;
+    margin-top: 23px;
+
+}
+
+#color {
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    opacity: 0.9;
+}
+
+#fc {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #7B816B;
+}
+
+#sc {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #E5DDD6;
+}
+
+#tc {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #E1A6A6;
+}
+
+#detail p {
+    width: 50%;
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+#leftbottom {
+    height: 18%;
+    width: 100%;
+
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#organic {
+    height: 100%;
+    width: 25%;
+
+    align-content: center;
+
+
+    border-right: 1px solid #7B816B;
+}
+
+#organic span {
+    height: 50px;
+}
+
+#organic h4 {
+
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+#soft {
+    height: 100%;
+    width: 25%;
+
+    align-content: center;
+
+    border-right: 1px solid #7B816B;
+}
+
+#soft span {
+    height: 50px;
+}
+
+#soft h4 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#handmade {
+    height: 100%;
+    width: 25%;
+
+    align-content: center;
+}
+
+#handmade span {
+    height: 50px;
+}
+
+#handmade span img {
+    border-radius: 50%;
+}
+
+#handmade h4 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#rightdiv {
+    height: 500px;
+    width: 70vw;
+    margin-right: -200px;
+
+    display: flex;
+}
+
+.section1 {
+    height: 100%;
+    width: 75%;
+    display: flex;
+}
+
+.section1 span {
+    font-size: 25px;
+    writing-mode: sideways-lr;
+    align-self: end;
+    font-family: var(--seondary-font);
+}
+
+.section1 img {
+    margin-left: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 80px #5c5e57, -1px -1px 20px #5c5e57;
+}
+
+
+.section2 {
+    height: 100%;
+    width: 25%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-right: 280px;
+    margin-top: -10px;
+}
+
+.side1 {
+    height: 50%;
+    width: 80px;
+}
+
+.side1 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #6c725b;
+    box-shadow: 1px 1px 60px #6a7251, -.5px -.5px 5px #6a7550;
+
+}
+
+.side2 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #E1A6A6;
+    box-shadow: 1px 1px 60px #f7a7a7, -.5px -.5px 5px #E1A6A6;
+
+}
+
+.side3 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #b9987b;
+    box-shadow: 1px 1px 60px#bc8f68, -.5px -.5px 5px #ffe0c6;
+
+}
+
+.side4 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid rgb(232, 187, 195);
+    box-shadow: 1px 1px 60px rgb(210, 148, 157), -.5px -.5px 5px rgb(226, 185, 192);
+
+}
+
+.side2 {
+    height: 50%;
+    width: 80px;
+}
+
+.side3 {
+    height: 50%;
+    width: 80px;
+}
+
+.side4 {
+    height: 50%;
+    width: 80px;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    right: 300px;
+    height: 100px;
+    width: 38%;
+    border-radius: 30px;
+    box-shadow:inset 1px 1px 60px;
+
+    align-content: center;
+}
+
+
+.trust-bar {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    box-shadow:inset 6px 4px 1000000px rgba(0, 0, 0, 0.05);
+    /* Subtle shadow like in image */
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* Spacing between icon and text */
+}
+
+.feature i {
+    font-size: 24px;
+    color: #333;
+    
+}
+
+.feature i img{
+    height: 50px;
+    border-radius: 20px;
+}
+
+.feature-text strong {
+    display: block;
+    font-size: 14px;
+    color: #000;
+}
+
+.feature-text span {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Add vertical dividers between items */
+.feature:not(:last-child) {
+    border-right: 1px solid #eee;
+    padding-right: 20px;
+}

@@ -1,0 +1,704 @@
+:root {
+    --main-color: #FCE3E5;
+    --main2-color: #FCF8F9;
+    --bg-color: #141414;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #141414;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr .5fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr;
+
+    grid-template-areas:
+        "card1 card2 card2 card3 card4"
+        "card1 card5 card5 card5 card4"
+        "card6 card5 card5 card5 card4"
+        "card6 card5 card5 card5 card9"
+        "card6  card7 card8 card8 card9";
+
+    gap: 10px;
+
+}
+
+.card1 {
+    background: var(--main-color);
+    grid-area: card1;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.card1 h3 {
+    font-size: 15px;
+    display: flex;
+    align-content: start;
+    justify-content: space-between;
+    margin-top: -8px;
+}
+
+.card1 h3 img {
+    height: 30px;
+    width: 30px;
+    margin-top: -10px;
+
+}
+
+.card1 span img {
+    width: 75%;
+    margin-left: 20px;
+    margin-top: -25px;
+
+}
+
+.card1 span h5 span1 {
+    font-size: 40px;
+}
+
+.card1 span h5 {
+    margin-top: -30px;
+    opacity: 0.8;
+}
+
+.card1 span #viewreport {
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: -5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FCF8F7;
+    border-radius: 30px;
+}
+
+/*Card one complete*/
+/*Card one complete*/
+/*Card one complete*/
+
+.card2 {
+    background: var(--main2-color);
+    grid-area: card2;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#sktext {
+    height: 40%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -5px;
+    margin-left: 38px;
+}
+
+#sktext h3 {
+    margin-left: -6px;
+}
+
+#sktext img {
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+#coloroption {
+    height: 60%;
+    width: 80%;
+}
+
+#coloroption .colors {
+
+    height: 80%;
+    width: 95%;
+
+    display: flex;
+    padding: 10px;
+    margin-left: 42px;
+    margin-bottom: 3px;
+    justify-content: space-around;
+
+}
+
+.colors .black {
+    width: 50px;
+    background: #141414;
+
+    border-radius: 30%;
+}
+
+.colors .gray {
+    width: 50px;
+    background: gray;
+
+    border-radius: 30%;
+}
+
+.colors .darkpink {
+    width: 50px;
+    background: #f09199;
+
+    border-radius: 30%;
+}
+
+.colors .lightpink {
+    width: 50px;
+    background: #e9b8c4;
+
+    border-radius: 30%;
+}
+
+#coloroption .viwefont {
+    height: 30px;
+    width: 50%;
+    border-radius: 40px;
+    background-color: #e6d8db;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-left: 67px;
+}
+
+#coloroption .viwefont h6 {
+    font-size: 12px;
+}
+
+/*Card second complete*/
+/*Card second complete*/
+/*Card second complete*/
+
+.card3 {
+    background: var(--main2-color);
+    grid-area: card3;
+    border-radius: 30px;
+}
+
+#heartlogo {
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#heartlogo h1 {
+    font-size: 45px;
+}
+
+#heartlogo .bgheart {
+    height: 50px;
+    width: 50px;
+}
+
+#heartlogo .bgheart img {
+    height: 100px;
+    width: 100px;
+    margin-top: -20px;
+    margin-left: -30px;
+}
+
+#pv {
+    height: 60%;
+    width: 100%;
+    padding-left: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#pv h5 {
+    opacity: .7;
+    margin-top: 10px;
+    font-size: 15px;
+
+
+}
+
+#pv img {
+    height: 50px;
+}
+
+#round {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+    color: rgb(241, 70, 164);
+    border-radius: 30px;
+    background: rgb(252, 218, 223);
+    margin-right: 25px;
+    margin-top: 5px;
+
+}
+
+/* card 3 complated*/
+/* card 3 complated*/
+/* card 3 complated*/
+
+.card4 {
+    background: var(--main2-color);
+    grid-area: card4;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+#card4first {
+    height: 40%;
+    width: 100%;
+
+    border-bottom: 1px solid rgb(188, 180, 180);
+}
+
+#card4first h3 {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+#card4imgdiv img {
+    height: 100%;
+    width: 100%;
+    margin-top: -35PX;
+}
+
+#card4sec {
+    height: 60%;
+    width: 100%;
+}
+
+#card4sec {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+#card4sec span {
+    opacity: .8;
+    font-size: 65px;
+    line-height: 80px;
+}
+
+#card4sec .fourty {
+    font-size: 20px;
+    color: #f36181;
+
+    display: flex;
+    gap: 90px;
+
+}
+
+#card4sec .fourty img {
+    height: 80px;
+    border-radius: 20px;
+    background-color: #ffe0e7;
+    margin-top: -30px;
+}
+
+.yasterday {
+    opacity: .8;
+    font-size: 13px;
+    margin-top: -50px;
+}
+
+/* card 4 complated*/
+/* card 4 complated*/
+/* card 4 complated*/
+
+.card5 {
+    background: var(--main-color);
+    grid-area: card5;
+    border-radius: 30px;
+}
+
+.card5 .circle {
+    height: 100%;
+    width: 50%;
+    border-radius: 50%;
+
+    justify-self: center;
+    background: radial-gradient(circle, #FCF8F9, rgb(218, 133, 147));
+}
+
+.card5 img {
+    height: 120%;
+
+    position: relative;
+    top: -67px;
+    left: 55px;
+}
+
+#card5first {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 300px;
+    left: 380px;
+}
+
+#card5first img {
+    background-color:  rgb(255, 240, 247);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+#card5sec {
+    height: 80px;
+    position: absolute;
+    top: 270px;
+    left: 870px;
+}
+
+#card5sec img {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#card5third {
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(255, 240, 247);
+
+    position: absolute;
+    top: 410px;
+    left: 480px;
+}
+
+#card5third img {
+    height: 80%;
+    margin-top: 72px;
+    margin-left: -40px;
+}
+
+#card5third h6 span {
+    font-size: 15px;
+}
+
+#card5third h6 {
+    height: 80%;
+    margin-top: -105px;
+    margin-left: 70px;
+}
+
+
+#card5fourth {
+    height: 175px;
+    width: 175px;
+    background-color: rgb(255, 240, 247);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 30px;
+
+    position: absolute;
+    top: 320px;
+    left: 920px;
+    display: flex;
+    line-height: 1.5;
+}
+
+#card5content img {
+    height: 100px;
+    top: -5px;
+    left: -20px;
+}
+#card5content{
+    margin-left: 15px;
+}
+#card5content h6 {
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+#card5content span1 {
+    opacity: .6;
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+#card5content span {
+    font-weight: 800;
+    color: #199720;
+}
+
+#card5fourth i{
+    font-size: 20px;
+    margin-top: 25px;
+}
+/* card 5 complated*/
+/* card 5 complated*/
+/* card 5 complated*/
+
+.card6 {
+    background: var(--bg-color);
+    grid-area: card6;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+#textdiv {
+    height: 35%;
+    width: 100%;
+
+    display: flex;
+    gap: 95px;
+}
+
+#textdiv h3 {
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#textdiv h3 span {
+    color: #ffb6c6;
+
+}
+
+#textdiv i {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    background: rgb(55, 54, 54);
+    color: white;
+    border-radius: 10px;
+
+    align-content: center;
+    padding: 7px;
+}
+
+#limgdiv {
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#limgdiv img {
+    border-radius: 20px;
+}
+
+
+#simgdiv {
+    height: 15%;
+    width: 100%;
+}
+
+#simgdiv img {
+    height: 400%;
+    width: 100%;
+    margin-top: -50px;
+    margin-left: 15px;
+}
+
+/* card 6 complated*/
+/* card 6 complated*/
+/* card 6 complated*/
+
+.card7 {
+    background: var(--main2-color);
+    grid-area: card7;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+#card7first {
+    height: 60%;
+    width: 100%;
+}
+
+#card7first span {
+    font-size: 55px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#card7sec {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+
+#card7sec h6 {
+    opacity: .8;
+    line-height: 1.5;
+}
+
+#card7sec h6 span {
+    font-size: 25px;
+    color: #199720;
+}
+
+#card7sec img {
+    height: 100;
+    width: 25%;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+
+/* card 7 complated*/
+/* card 7 complated*/
+/* card 7 complated*/
+
+
+.card8 {
+    background: var(--main2-color);
+    grid-area: card8;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card8 .card8first {
+    height: 100%;
+    width: 60%;
+    padding: 30px;
+    font-size: 13px;
+}
+
+.card8 .card8sec {
+    height: 100%;
+    width: 40%;
+}
+
+.card8 .card8sec img {
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
+.card8first span {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 650;
+    margin-bottom: 15px;
+}
+
+.card8first .explore {
+    color: white;
+    height: 40px;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #141414;
+    margin-top: 20px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card8first .explore i {
+    color: white;
+}
+
+
+/* card 8 complated*/
+/* card 8 complated*/
+/* card 8 complated*/
+
+
+.card9 {
+    background: var(--main-color);
+    grid-area: card9;
+    border-radius: 30px;
+}
+
+#logoimg {
+    height: 150px;
+    width: 150px;
+
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#logoimg img {
+
+    height: 100%;
+    width: 100%;
+}
+
+#discover {
+    height: 150px;
+    width: 100%;
+
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    justify-items: center;
+
+    margin-top: -20px;
+}
+
+#discover h1 {
+    font-size: 40px;
+}
+
+#discover h5 {
+    line-height: 35px;
+    opacity: .6;
+
+    margin-bottom: 8px;
+}
+
+#discover .discovermore {
+    height: 30px;
+    width: 55%;
+    background-color: #ffb6c6;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 18px;
+    border-radius: 20px;
+}
+
+#discover .discovermore h6 {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+#discover .discovermore i {
+    margin-right: 5px;
+}
