@@ -89,23 +89,22 @@
 
 // console.log(counter);
 
+// function countWords(str) {
+//   let count = 0;
+//   let isWord = false;
 
-function countWords(str) {
-  let count = 0;
-  let isWord = false;
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] === ' ' || str[i] === '\t' || str[i] === '\n') {
+//       isWord = false;
+//     } 
+//     else if (isWord === false) {
+//       isWord = true;
+//       count++;
+//     }
+//   }
 
-  for (let i = 0; i < str.length; i++) {
-    if (str[i] === ' ' || str[i] === '\t' || str[i] === '\n') {
-      isWord = false;
-    } 
-    else if (isWord === false) {
-      isWord = true;
-      count++;
-    }
-  }
+//   return count;
+// }
 
-  return count;
-}
-
-const input = "I  Love  JavaScript";
-console.log(`Input: "${input}"      Output: ${countWords(input)}`);
+// const input = "I  Love  JavaScript";
+// console.log(`Input: "${input}"      Output: ${countWords(input)}`);
